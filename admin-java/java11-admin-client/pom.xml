@@ -77,6 +77,12 @@
     </dependency>
 
     <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>[${jackson.version}]</version>
+    </dependency>
+
+    <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jsr310</artifactId>
       <version>[${jackson.version}]</version>
@@ -229,8 +235,8 @@
         <configuration>
           <filtering>false</filtering>
           <tiles>
-            <tile>io.featurehub.sdk.tiles:tile-java11:1.1-SNAPSHOT</tile>
-            <tile>io.featurehub.sdk.tiles:tile-release:[1.1,2)</tile>
+            <tile>io.featurehub.sdk.tiles:tile-java11:1.1</tile>
+            <tile>io.featurehub.sdk.tiles:tile-release:1.1</tile>
           </tiles>
         </configuration>
       </plugin>

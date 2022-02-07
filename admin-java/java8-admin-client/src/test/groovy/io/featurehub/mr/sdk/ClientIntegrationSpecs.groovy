@@ -17,7 +17,7 @@ class ClientIntegrationSpecs extends Specification {
   def "I can connect and list the existing features"() {
     given: "i have a connection"
       def api = new ApiClient()
-      api.setBasePath("http://localhost:8903")
+      api.setHost("localhost").setPort(8085)
     and: "i attempt to get the version 30 times before giving up"
       def versionApi = new InfoServiceApi(api)
       def count = 0
