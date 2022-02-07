@@ -162,7 +162,7 @@
           <filtering>false</filtering>
           <tiles>
             <tile>io.featurehub.sdk.tiles:tile-java8:1.1</tile>
-            <tile>io.featurehub.sdk.tiles:tile-release:1.1</tile>
+            <tile>io.featurehub.sdk.tiles:tile-release:1.2</tile>
           </tiles>
         </configuration>
       </plugin>
