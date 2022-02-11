@@ -1,1 +1,3 @@
 == Java Admin SDK
+
+Please see the https://docs.featurehub.io/admin-development-kit.html[main website] for the documentation on how to use this repository. All of the SDKs are similar in nature as they are generated from OpenAPI.
