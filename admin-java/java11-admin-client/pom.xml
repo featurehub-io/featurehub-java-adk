@@ -35,10 +35,18 @@
 
   <licenses>
     <license>
-      <name>Apache 2 with Commons Clause</name>
+      <name>MIT</name>
       <url>https://github.com/featurehub-io/featurehub/blob/master/LICENSE.txt</url>
     </license>
   </licenses>
+
+  <scm>
+    <connection>scm:git:git@github.com:featurehub-io/featurehub-java-adk.git</connection>
+    <developerConnection>scm:git:git@github.com:featurehub-io/featurehub-java-adk.git</developerConnection>
+    <url>git@github.com:featurehub-io/featurehub-java-adk.git</url>
+    <tag>HEAD</tag>
+  </scm>
+
 
   <dependencies>
     <!-- if you don't want our versions of either of these, just use an excludes -->
