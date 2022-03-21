@@ -4,7 +4,7 @@
 
   <groupId>io.featurehub.mr.sdk</groupId>
   <artifactId>java11-admin-client</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
   <name>java11-admin-client</name>
 
   <description>
@@ -44,7 +44,7 @@
     <connection>scm:git:git@github.com:featurehub-io/featurehub-java-adk.git</connection>
     <developerConnection>scm:git:git@github.com:featurehub-io/featurehub-java-adk.git</developerConnection>
     <url>git@github.com:featurehub-io/featurehub-java-adk.git</url>
-    <tag>HEAD</tag>
+    <tag>java11-admin-client-1.2</tag>
   </scm>
 
 
