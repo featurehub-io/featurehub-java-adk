@@ -119,7 +119,7 @@
               <output>${project.basedir}/target/generated-sources/api</output>
               <apiPackage>io.featurehub.admin.api</apiPackage>
               <modelPackage>io.featurehub.admin.model</modelPackage>
-              <inputSpec>http://api.dev.featurehub.io/mrapi/1.1.5.yaml</inputSpec>
+              <inputSpec>http://api.dev.featurehub.io/mrapi/1.1.6.yaml</inputSpec>
               <generatorName>java</generatorName>
               <library>okhttp-gson</library>
               <enablePostProcessFile>true</enablePostProcessFile>
