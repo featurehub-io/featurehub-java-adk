@@ -47,12 +47,12 @@
     <dependency>
       <groupId>com.squareup.okhttp3</groupId>
       <artifactId>okhttp</artifactId>
-      <version>4.9.1</version>
+      <version>4.10.0</version>
     </dependency>
     <dependency>
       <groupId>com.squareup.okhttp3</groupId>
       <artifactId>logging-interceptor</artifactId>
-      <version>4.9.1</version>
+      <version>4.10.0</version>
     </dependency>
     <dependency>
       <groupId>io.gsonfire</groupId>
@@ -62,23 +62,29 @@
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
-      <version>2.8.7</version>
+      <version>2.9.1</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
       <artifactId>swagger-annotations</artifactId>
-      <version>1.6.2</version>
+      <version>1.6.5</version>
     </dependency>
     <dependency>
-      <groupId>javax.annotation</groupId>
-      <artifactId>javax.annotation-api</artifactId>
-      <version>1.3.2</version>
+      <groupId>jakarta.annotation</groupId>
+      <artifactId>jakarta.annotation-api</artifactId>
+      <version>1.3.5</version>
+      <scope>provided</scope>
     </dependency>
     <!-- for this random javax.annotation.Nullable annotation! -->
     <dependency>
       <groupId>com.google.code.findbugs</groupId>
       <artifactId>jsr305</artifactId>
       <version>3.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.ws.rs</groupId>
+      <artifactId>javax.ws.rs-api</artifactId>
+      <version>2.1.1</version>
     </dependency>
 
     <dependency>
@@ -107,7 +113,7 @@
       <plugin>
         <groupId>org.openapitools</groupId>
         <artifactId>openapi-generator-maven-plugin</artifactId>
-        <version>5.2.1</version>
+        <version>6.2.1</version>
         <executions>
           <execution>
             <id>featurehub-api</id>
@@ -119,7 +125,7 @@
               <output>${project.basedir}/target/generated-sources/api</output>
               <apiPackage>io.featurehub.admin.api</apiPackage>
               <modelPackage>io.featurehub.admin.model</modelPackage>
-              <inputSpec>http://api.dev.featurehub.io/mrapi/1.1.6.yaml</inputSpec>
+              <inputSpec>http://api.dev.featurehub.io/mrapi/1.1.9.yaml</inputSpec>
               <generatorName>java</generatorName>
               <library>okhttp-gson</library>
               <enablePostProcessFile>true</enablePostProcessFile>

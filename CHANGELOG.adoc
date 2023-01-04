@@ -1,0 +1,4 @@
+= Java Admin SDK
+
+- 1.3 - supports API for 1.1.9 of the Management Repository (FH 1.5.10)
+- 1.2 - supports API for 1.1.6 of the Management Repository
