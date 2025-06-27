@@ -30,7 +30,7 @@
 
   <properties>
     <party-sdk-version>1.5.10</party-sdk-version>
-    <jackson.version>2.12.4</jackson.version>
+    <jackson.version>[2.15.0]</jackson.version>
   </properties>
 
   <licenses>
@@ -81,7 +81,7 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
-      <version>[${jackson.version}]</version>
+      <version>[${jackson.version}</version>
     </dependency>
 
     <dependency>
